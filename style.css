@@ -1,0 +1,75 @@
+html, body{
+  margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cabecalho {
+	margin: 10px;
+	background-color: #aa0000;
+	border-radius: 10px;
+	height: 60px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+	padding-top: 15px;
+	transition: 0.4s linear all;
+}
+
+.cabecalho:hover {
+	transform: scale(1.05,1.05);
+  transition: 0.4s linear all;
+}
+
+.cabecalho-titulo {
+margin:0;
+color: white;
+font-size: 30px;
+font-family: "SulSans", sans-serif;
+text-align: center;
+
+}
+
+.card-list .card {
+  margin: 10px 10px;
+  display: inline-block;
+  width: calc(33% - 20px);
+  min-width:300px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+  overflow: hidden; 
+  font-family: "SulSans", sans-serif;
+  transition: 0.4s linear all;
+  
+  /*a imagem nao arredondava, overflow esconde tudo que extrapola a caixa */
+
+}
+
+.card:hover {
+  transform: scale(1.05,1.05);
+  transition: 0.4s linear all;
+  
+}
+
+.card img {
+  width:100%;
+}
+
+.card h2, .card p {
+  margin:0;
+  padding:20px;
+}
+
+.card h2 {
+  color: #3e3e3e;
+  padding-bottom:0;
+}
+
+.card p {
+  color: gray;
+}
